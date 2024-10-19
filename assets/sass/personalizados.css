@@ -10811,6 +10811,15 @@ html body header nav div a.navbar-brand {
   font-family: "Dancing Script", cursive;
   font-size: 25px;
 }
+html body main .carousel {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+html body main .carousel-control-prev-icon, html body main .carousel-control-next-icon {
+  filter: invert(1) grayscale(100);
+}
 html body main .toast {
   position: absolute;
   z-index: 10000000;

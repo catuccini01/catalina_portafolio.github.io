@@ -47,6 +47,15 @@ html {
     }
 
     main {
+      .carousel {
+        position: relative;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+      }
+      .carousel-control-prev-icon, .carousel-control-next-icon{
+        filter: invert(1) grayscale(100);
+      }
       .toast {
         position: absolute;
         z-index: 10000000;
@@ -348,5 +357,6 @@ html {
         }
       }
 }
+
 
 
