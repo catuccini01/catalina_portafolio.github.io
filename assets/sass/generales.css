@@ -1,0 +1,57 @@
+body header nav div a {
+  color: white !important;
+}
+body header nav div a.navbar-brand {
+  /*  font-family: $font-family-monospace; */
+}
+
+#myVideo {
+  position: fixed;
+  left: 0;
+  top: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  filter: opacity(0.5);
+  height: 100%;
+  z-index: -1;
+  visibility: visible;
+}
+
+#img-principal {
+  height: 100vh;
+}
+#img-principal .volumen-video {
+  display: flex;
+  justify-content: flex-end;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  padding: 10px 10px 0 0;
+  background-color: rgba(255, 255, 255, 0.6196078431);
+  /* max-width: 100%; */
+  color: #6e6e6e;
+  font-weight: bold;
+  margin-block: 20px;
+  padding: 5px;
+  border-radius: 5px;
+}
+#img-principal h1 {
+  /*  font-family: $font-family-monospace; */
+}
+#img-principal .volumen-video p {
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+  height: 100% !important;
+  width: 100% !important;
+}
+
+section,
+footer {
+  color: white;
+}/*# sourceMappingURL=generales.css.map */

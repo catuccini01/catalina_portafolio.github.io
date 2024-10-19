@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/sass/personalizados.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+
+  <!-- ANIMACIONES AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- OWL CAROUSSEL -->
+
+  <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+  <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
+  <title>Sobre Mí</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+  <header>
+    <nav id="navbar" class="navbar navbar-expand-lg bg-primary fixed-top ">
+      <div class="container">
+        <a class="navbar-brand" href="#img-principal">Catalina Pérez</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#img-principal">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobreMi">Sobre mí</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#miniPortfolio">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <main>
+
+    <div class="toast align-items-center text-bg-secondary border-0 position-fixed top-0 end-0 " role="alert"
+      aria-live="assertive" aria-atomic="true">
+      <div class="d-flex">
+        <div class="toast-body">
+          ¡Hola! Bienvenid@ a mi Portafolio
+        </div>
+        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"
+          aria-label="Close"></button>
+      </div>
+    </div>
+
+
+
+    <video id="myVideo" autoplay loop>
+      <source src="./assets/videos/video_fondo.mp4" type="video/mp4">
+
+    </video>
+
+
+    <section data-aos="fade-down" data-aos-anchor-placement="top-bottom" data-aos-duration="1500" id="img-principal"
+      class="d-flex flex-column align-items-center justify-content-center container-sm">
+      <div class="d-flex align-items-center volumen-video">
+        <p>Puedes activar y desactivar el sonido del video de fondo aquí</p>
+        <button class="btn btn-secondary" onclick="setNoVolume()" type="button" data-bs-toggle="tooltip"
+          data-bs-placement="top" data-bs-title="Video sin sonido">
+          <i class="fa-solid fa-volume-xmark"></i>
+        </button>
+        <button class="btn btn-secondary" onclick="setFullVolume()" type="button" data-bs-toggle="tooltip"
+          data-bs-placement="top" data-bs-title="Video con sonido">
+          <i class="fa-solid fa-volume"></i>
+        </button>
+      </div>
+
+
+      <div class="p-0 card mb-3 border-0 " style="max-width: 540px;">
+        <div class=" row g-0">
+          <div class="col-md-4 p-2">
+            <img src="./assets/images/img_perfil_02.jpg" class="img-fluid rounded-start"
+              alt="Imagen de Catalina Pérez riendo">
+          </div>
+          <div class="col-md-8 bg-primary">
+            <div class="card-body">
+              <h1 class="fs-5">Catalina Pérez</h1>
+              <p class="diseñadora">DISEÑADORA</p>
+              <p class="grafica">GRÁFICA</p>
+              <span>Para descubrir más cosas sobre mí, <br> presiona "ver más"</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="verMas">
+        <a class="btn btn-secondary" href="#sobreMi">Ver más <br>
+          <i class="fa-regular fa-angles-down"></i>
+        </a>
+
+      </div>
+    </section>
+
+    <section id="sobreMi" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 p-4 bg-primary">
+            <h2 class="mb-4">Yo, en lo <b>PERSONAL</b></h2>
+            <div class="row">
+
+              <a class="col-lg-6 col-md-6 col-sm-6 mb-2 px-1" data-fancybox="gallery"
+                data-caption="Soy una persona alegre" data-aos="zoom-in" data-aos-anchor-placement="top-bottom"
+                data-aos-duration="1500" href="./assets/images/tarjeta_personal_1.png">
+                <img src="./assets/images/tarjeta_personal_1.png" alt="Tarjeta descripción en lo personal">
+
+                <a class="col-lg-6 col-md-6 col-sm-6 mb-2 px-1" data-fancybox="gallery"
+                  data-caption="Me gusta la música" data-aos="zoom-in" data-aos-anchor-placement="top-bottom"
+                  data-aos-duration="1500" href="./assets/images/tarjeta_personal_2.png">
+                  <img src="./assets/images/tarjeta_personal_2.png" alt="Tarjeta descripción en lo personal">
+
+                  <a class="col-lg-6 col-md-6 col-sm-6 mb-2 px-1" data-fancybox="gallery"
+                    data-caption="Tengo gustos ñoños" data-aos="zoom-in" data-aos-anchor-placement="top-bottom"
+                    data-aos-duration="1500" href="./assets/images/tarjeta_personal_3.png">
+                    <img src="./assets/images/tarjeta_personal_3.png" alt="Tarjeta descripción en lo personal">
+
+                    <a class="col-lg-6 col-md-6 col-sm-6 mb-2 px-1" data-fancybox="gallery"
+                      data-caption="Aprender es un talento" data-aos="zoom-in" data-aos-anchor-placement="top-bottom"
+                      data-aos-duration="1500" href="./assets/images/tarjeta_personal_4.png">
+                      <img src="./assets/images/tarjeta_personal_4.png" alt="Tarjeta descripción en lo personal">
+
+
+                    </a>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-6 col-md-12 p-4 bg-secondary">
+            <h2 class="mb-4">Yo, en lo <b>PROFESIONAL</b></h2>
+            <div class="row">
+
+              <a class="col-lg-6 col-md-6 col-sm-6 mb-2 px-1" data-fancybox="gallery2" data-caption="Soy responsable"
+                data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-aos-duration="1500"
+                href="./assets/images/tarjeta_profesional_1.png">
+                <img src="./assets/images/tarjeta_profesional_1.png" alt="Tarjeta descripción en lo profesional">
+
+                <a class="col-lg-6 col-md-6 col-sm-6 mb-2 px-1" data-fancybox="gallery2"
+                  data-caption="Estoy abierta a críticas" data-aos="zoom-in" data-aos-anchor-placement="top-bottom"
+                  data-aos-duration="1500" href="./assets/images/tarjeta_profesional_2.png">
+                  <img src="./assets/images/tarjeta_profesional_2.png" alt="Tarjeta descripción en lo profesional">
+
+                  <a class="col-lg-6 col-md-6 col-sm-6 mb-2 px-1" data-fancybox="gallery2"
+                    data-caption="Soy perseverante" data-aos="zoom-in" data-aos-anchor-placement="top-bottom"
+                    data-aos-duration="1500" href="./assets/images/tarjeta_profesional_3.png">
+                    <img src="./assets/images/tarjeta_profesional_3.png" alt="Tarjeta descripción en lo profesional">
+
+                    <a class="col-lg-6 col-md-6 col-sm-6 mb-2 px-1" data-fancybox="gallery2"
+                      data-caption="Soy competitiva" data-aos="zoom-in" data-aos-anchor-placement="top-bottom"
+                      data-aos-duration="1500" href="./assets/images/tarjeta_profesional_4.png">
+                      <img src="./assets/images/tarjeta_profesional_4.png" alt="Tarjeta descripción en lo profesional">
+
+
+                    </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="verMas d-flex justify-content-center mt-3">
+        <a class="btn btn-secondary " href="#miniPortfolio">Continuar <br>
+          <i class="fa-regular fa-angles-down"></i>
+        </a>
+
+      </div>
+    </section>
+
+
+    <section id="miniPortfolio" class="bg-secondary d-flex flex-column justify-content-center py-5">
+      <div class="container text-center">
+        <h2><strong> Una pincelada de lo que hago</strong></h2>
+        <p>Como diseñadora</p>
+      </div>
+      <div class="owl-carousel owl-theme container">
+        <a href="./proyecto-pasasteSinTag.html" class="item">
+          <img src="./assets/images/mockup-pasaste-sin-tag.png" alt="Pasaste sin Tag">
+        </a>
+        <a href="./proyecto-obrasAvn.html" class="item">
+          <img src="./assets/images/mockup-obras-avn.png" alt="Obras Avn">
+        </a>
+        <a href="./proyecto-militares.html" class="item">
+          <img src="./assets/images/mockup-militar.png" alt="Escuela de Suboficiales">
+        </a>
+        <a href="./proyecto-jotalillo.html" class="item">
+          <img src="./assets/images/mockup-jotalillo.png" alt="Jota Lillo Fotografía">
+        </a>
+        <a href="./proyecto-tiendas-digitales.html" class="item">
+          <img src="./assets/images/mockup-playstore-appstore.png" alt="Imágenes Playstore/Appstore">
+        </a>
+
+      </div>
+
+    </section>
+
+    <section id="contacto" class="container">
+      <h2>Contacto</h2>
+      <form class="p-4" action="https://formsubmit.co/catalina.perez.olivos@gmail.com" method="post">
+        <div class="mb-3">
+          <label for="inputName" class="form-label">Ingrese su Nombre</label>
+          <input type="text" class="form-control" name="inputName" id="inputName" aria-describedby="inputName">
+        </div>
+
+        <div class="mb-3">
+          <label for="inputSubject" class="form-label">Asunto</label>
+          <input type="text" class="form-control" id="inputSubject" name="inputSubject">
+        </div>
+
+        <div class="mb-3">
+          <label for="inputTextarea" class="form-label">Comentarios</label>
+          <textarea class="form-control" id="inputTextarea" name="inputTextarea" rows="3"></textarea>
+        </div>
+
+
+        <button type="submit" class="btn btn-primary mb-4">Enviar</button>
+        <hr>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Otras formas de contactarme
+        </button>
+      </form>
+     
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel"><strong> PUEDES LLAMARME O ESCRIBIRME DIRECTAMENTE</strong></h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Mi número de teléfono: <strong>+56 9 3527 8900</strong>
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+
+  </main>
+  <footer class="bg-primary text-center text-lg-start">
+    <!-- Copyright -->
+    <div class="text-center p-3">
+      © 2023 Copyright. Todos los derechos reservados.
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+  <script>
+    const myModal = document.getElementById('myModal')
+    const myInput = document.getElementById('myInput')
+
+    myModal.addEventListener('shown.bs.modal', () => {
+      myInput.focus()
+    })
+  </script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./assets/bootstrap-5.2.3/dist/js/bootstrap.bundle.js"></script>
+  <script src="https://kit.fontawesome.com/ed94537791.js" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+    crossorigin="anonymous"></script>
+
+  <script src="./assets/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+
+  <script src="./assets/js/custom.js"></script>
+
+
+
+
+</body>
+
+
+
+</html>

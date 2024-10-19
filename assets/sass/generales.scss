@@ -1,0 +1,352 @@
+html {
+  height: 100%;
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    position: relative;
+    #siguiente-proyecto {
+        margin-bottom: 40px;
+        .contenedorSiguiente{
+            background-color: #60009b;
+        }
+      a,
+      i {
+        color: #ffffff !important;
+      }
+      a{
+        text-decoration: none;
+      }
+    }
+    hr {
+      background-color: #212529;
+      height: 2px;
+      opacity: 1;
+      width: 100%;
+    }
+    header {
+      margin-bottom: 80px;
+      nav {
+        .nav-pills {
+          a.active {
+            --bs-nav-pills-link-active-bg: #60009b !important;
+          }
+        }
+
+        div {
+          a {
+            color: white !important;
+          }
+
+          a.navbar-brand {
+            font-family: $font-family-monospace;
+            font-size: 25px;
+          }
+        }
+      }
+    }
+
+    main {
+      .toast {
+        position: absolute;
+        z-index: 10000000;
+        margin: 80px 20px 0 0;
+      }
+
+      #img-principal {
+        height: 100vh;
+
+        h1 {
+          font-family: $font-family-monospace;
+        }
+
+        .volumen-video {
+          display: flex;
+          justify-content: flex-end;
+          column-gap: 10px;
+          padding: 10px 10px 0 0;
+          background-color: #ffffff9e;
+          color: #6e6e6e;
+          font-weight: bold;
+          margin-block: 80px 20px;
+          padding: 5px;
+          border-radius: 5px;
+
+          p {
+            font-size: 12px;
+            padding: 0;
+            margin: 0;
+          }
+        }
+
+        .card {
+          .card-body {
+            .diseñadora,
+            .grafica {
+              font-size: 40px;
+              margin: 0;
+              line-height: 50px;
+            }
+
+            .grafica {
+              font-weight: bold;
+            }
+          }
+        }
+      }
+
+      #sobreMi {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      #miniPortfolio {
+        height: 100vh;
+      }
+    }
+  }
+
+  #myVideo {
+    position: fixed;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+    width: 100%;
+    filter: opacity(0.5);
+    height: 100%;
+    z-index: -1;
+    visibility: visible;
+  }
+
+  #img-principal {
+    height: 100vh;
+
+    h1 {
+      font-family: $font-family-monospace;
+    }
+
+    .volumen-video {
+      display: flex;
+      justify-content: flex-end;
+      column-gap: 10px;
+      padding: 10px 10px 0 0;
+      background-color: #ffffff9e;
+      color: #6e6e6e;
+      font-weight: bold;
+      margin-block: 80px 20px;
+      padding: 5px;
+      border-radius: 5px;
+
+      p {
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+      }
+    }
+
+    .card {
+      .card-body {
+        .diseñadora,
+        .grafica {
+          font-size: 40px;
+          margin: 0;
+          line-height: 50px;
+        }
+
+        .grafica {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  #sobreMi {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #miniPortfolio {
+    height: auto;
+
+    p {
+      font-size: 20px;
+    }
+  }
+
+  .verMas a {
+    border-radius: 50px;
+    padding-inline: 20px;
+    margin-bottom: 20px;
+  }
+
+  img {
+    object-fit: cover !important;
+    height: 100% !important;
+    width: 100% !important;
+  }
+
+  #contacto {
+    min-height: 600px;
+
+    h2 {
+      text-align: center;
+      color: $secondary;
+      font-weight: bold;
+      padding-block: 30px;
+    }
+
+    form {
+      max-width: 500px;
+      background-color: white;
+
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      margin: 0 auto;
+      border-radius: 10px;
+
+      button {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 0 auto;
+      }
+      hr {
+        color: #0000006e;
+      }
+    }
+  }
+
+  section,
+  footer {
+    margin-top: auto;
+    color: white;
+  }
+
+  /* PROYECTO PASASTE SIN TAG */
+  #pasasteSinTag {
+    h1,
+    h2,
+    h3,
+    h5,
+    p {
+      color: #212529;
+    }
+
+    h1 {
+      font-weight: bold;
+    }
+    h3 {
+      font-size: 16px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    p {
+      text-align: justify;
+    }
+  }
+
+    /* PROYECTO TIENDAS DIGITALES */
+    #appstore-playstore {
+        h1,
+        h2,
+        h3,
+        h5,
+        p {
+          color: #212529;
+        }
+    
+        h1 {
+          font-weight: bold;
+        }
+        h3 {
+          font-size: 16px;
+          font-weight: 600;
+          text-transform: uppercase;
+        }
+    
+        p {
+          text-align: justify;
+        }
+      }
+
+          /* PROYECTO MILITARES */
+    #militares {
+        h1,
+        h2,
+        h3,
+        h5,
+        p {
+          color: #212529;
+        }
+    
+        h1 {
+          font-weight: bold;
+        }
+        h3 {
+          font-size: 16px;
+          font-weight: 600;
+          text-transform: uppercase;
+        }
+    
+        p {
+          text-align: justify;
+        }
+      }
+
+              /* PROYECTO JOTALILLO */
+    #jotalillo {
+        h1,
+        h2,
+        h3,
+        h5,
+        p {
+          color: #212529;
+        }
+    
+        h1 {
+          font-weight: bold;
+        }
+        h3 {
+          font-size: 16px;
+          font-weight: 600;
+          text-transform: uppercase;
+        }
+    
+        p {
+          text-align: justify;
+        }
+      }
+
+             /* PROYECTO OBRASAVN */
+    #obrasAvn {
+        h1,
+        h2,
+        h3,
+        h5,
+        p {
+          color: #212529;
+        }
+    
+        h1 {
+          font-weight: bold;
+        }
+        h3 {
+          font-size: 16px;
+          font-weight: 600;
+          text-transform: uppercase;
+        }
+    
+        p {
+          text-align: justify;
+        }
+      }
+}
+
+
