@@ -26,7 +26,7 @@ enableRobotsTXT:        true
 metaDataFormat:         "yaml"
 disableKinds:           ["404", "taxonomy", "term", "RSS"]
 
-publishDir:             "_site"
+publishDir:             "public"
 
 module:
   mounts:
