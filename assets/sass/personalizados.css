@@ -10779,6 +10779,9 @@ html body {
   min-height: 100%;
   position: relative;
 }
+html body #trucazo {
+  opacity: 0;
+}
 html body #siguiente-proyecto {
   margin-bottom: 40px;
 }
