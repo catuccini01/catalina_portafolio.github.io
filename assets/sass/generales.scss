@@ -5,19 +5,21 @@ html {
     flex-direction: column;
     min-height: 100%;
     position: relative;
-    #trucazo{
+    #trucazo {
       opacity: 0;
     }
     #siguiente-proyecto {
-        margin-bottom: 40px;
-        .contenedorSiguiente{
-            background-color: #60009b;
+      margin-bottom: 40px;
+      .contenedorSiguiente {
+        background-color: #60009b;
+        p{
+          color: #ffffff;
         }
-      a,
+      }
       i {
         color: #ffffff !important;
       }
-      a{
+      a {
         text-decoration: none;
       }
     }
@@ -34,6 +36,10 @@ html {
           a.active {
             --bs-nav-pills-link-active-bg: #60009b !important;
           }
+
+        }
+        .nav-link.active{
+          padding: 8px;
         }
 
         div {
@@ -56,7 +62,8 @@ html {
         display: flex;
         align-items: center;
       }
-      .carousel-control-prev-icon, .carousel-control-next-icon{
+      .carousel-control-prev-icon,
+      .carousel-control-next-icon {
         filter: invert(1) grayscale(100);
       }
       .toast {
@@ -116,6 +123,10 @@ html {
 
       #miniPortfolio {
         height: 100vh;
+        #image-carousel {
+          max-width: 97%;
+          margin: auto;
+        }
       }
     }
   }
@@ -254,6 +265,7 @@ html {
       font-weight: bold;
     }
     h3 {
+      margin-top: 15px;
       font-size: 16px;
       font-weight: 600;
       text-transform: uppercase;
@@ -264,102 +276,103 @@ html {
     }
   }
 
-    /* PROYECTO TIENDAS DIGITALES */
-    #appstore-playstore {
-        h1,
-        h2,
-        h3,
-        h5,
-        p {
-          color: #212529;
-        }
-    
-        h1 {
-          font-weight: bold;
-        }
-        h3 {
-          font-size: 16px;
-          font-weight: 600;
-          text-transform: uppercase;
-        }
-    
-        p {
-          text-align: justify;
-        }
-      }
+  /* PROYECTO TIENDAS DIGITALES */
+  #appstore-playstore {
+    h1,
+    h2,
+    h3,
+    h5,
+    p {
+      color: #212529;
+    }
 
-          /* PROYECTO MILITARES */
-    #militares {
-        h1,
-        h2,
-        h3,
-        h5,
-        p {
-          color: #212529;
-        }
-    
-        h1 {
-          font-weight: bold;
-        }
-        h3 {
-          font-size: 16px;
-          font-weight: 600;
-          text-transform: uppercase;
-        }
-    
-        p {
-          text-align: justify;
-        }
-      }
+    h1 {
+      font-weight: bold;
+    }
+    h3 {
+      margin-top: 15px;
+      font-size: 16px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
 
-              /* PROYECTO JOTALILLO */
-    #jotalillo {
-        h1,
-        h2,
-        h3,
-        h5,
-        p {
-          color: #212529;
-        }
-    
-        h1 {
-          font-weight: bold;
-        }
-        h3 {
-          font-size: 16px;
-          font-weight: 600;
-          text-transform: uppercase;
-        }
-    
-        p {
-          text-align: justify;
-        }
-      }
+    p {
+      text-align: justify;
+    }
+  }
 
-             /* PROYECTO OBRASAVN */
-    #obrasAvn {
-        h1,
-        h2,
-        h3,
-        h5,
-        p {
-          color: #212529;
-        }
-    
-        h1 {
-          font-weight: bold;
-        }
-        h3 {
-          font-size: 16px;
-          font-weight: 600;
-          text-transform: uppercase;
-        }
-    
-        p {
-          text-align: justify;
-        }
-      }
+  /* PROYECTO MILITARES */
+  #militares {
+    h1,
+    h2,
+    h3,
+    h5,
+    p {
+      color: #212529;
+    }
+
+    h1 {
+      font-weight: bold;
+    }
+    h3 {
+      margin-top: 15px;
+      font-size: 16px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    p {
+      text-align: justify;
+    }
+  }
+
+  /* PROYECTO JOTALILLO */
+  #jotalillo {
+    h1,
+    h2,
+    h3,
+    h5,
+    p {
+      color: #212529;
+    }
+
+    h1 {
+      font-weight: bold;
+    }
+    h3 {
+      margin-top: 15px;
+      font-size: 16px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    p {
+      text-align: justify;
+    }
+  }
+
+  /* PROYECTO OBRASAVN */
+  #obrasAvn {
+    h1,
+    h2,
+    h3,
+    h5,
+    p {
+      color: #212529;
+    }
+
+    h1 {
+      font-weight: bold;
+    }
+    h3 {
+      margin-top: 15px;
+      font-size: 16px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    p {
+      text-align: justify;
+    }
+  }
 }
-
-
-

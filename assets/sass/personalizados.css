@@ -10788,7 +10788,9 @@ html body #siguiente-proyecto {
 html body #siguiente-proyecto .contenedorSiguiente {
   background-color: #60009b;
 }
-html body #siguiente-proyecto a,
+html body #siguiente-proyecto .contenedorSiguiente p {
+  color: #ffffff;
+}
 html body #siguiente-proyecto i {
   color: #ffffff !important;
 }
@@ -10807,6 +10809,9 @@ html body header {
 html body header nav .nav-pills a.active {
   --bs-nav-pills-link-active-bg: #60009b !important;
 }
+html body header nav .nav-link.active {
+  padding: 8px;
+}
 html body header nav div a {
   color: white !important;
 }
@@ -10820,7 +10825,8 @@ html body main .carousel {
   display: flex;
   align-items: center;
 }
-html body main .carousel-control-prev-icon, html body main .carousel-control-next-icon {
+html body main .carousel-control-prev-icon,
+html body main .carousel-control-next-icon {
   filter: invert(1) grayscale(100);
 }
 html body main .toast {
@@ -10869,6 +10875,10 @@ html body main #sobreMi {
 }
 html body main #miniPortfolio {
   height: 100vh;
+}
+html body main #miniPortfolio #image-carousel {
+  max-width: 97%;
+  margin: auto;
 }
 html #myVideo {
   position: fixed;
@@ -10985,6 +10995,7 @@ html #pasasteSinTag h1, html #pasasteSinTag .h1 {
   font-weight: bold;
 }
 html #pasasteSinTag h3, html #pasasteSinTag .h3 {
+  margin-top: 15px;
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
@@ -11006,6 +11017,7 @@ html #appstore-playstore h1, html #appstore-playstore .h1 {
   font-weight: bold;
 }
 html #appstore-playstore h3, html #appstore-playstore .h3 {
+  margin-top: 15px;
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
@@ -11027,6 +11039,7 @@ html #militares h1, html #militares .h1 {
   font-weight: bold;
 }
 html #militares h3, html #militares .h3 {
+  margin-top: 15px;
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
@@ -11048,6 +11061,7 @@ html #jotalillo h1, html #jotalillo .h1 {
   font-weight: bold;
 }
 html #jotalillo h3, html #jotalillo .h3 {
+  margin-top: 15px;
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
@@ -11069,6 +11083,7 @@ html #obrasAvn h1, html #obrasAvn .h1 {
   font-weight: bold;
 }
 html #obrasAvn h3, html #obrasAvn .h3 {
+  margin-top: 15px;
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
