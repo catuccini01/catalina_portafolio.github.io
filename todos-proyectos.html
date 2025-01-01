@@ -34,6 +34,7 @@
 
   <body data-bs-spy="scroll" data-bs-target="#navbar">
     <header>
+
       <div
         class="offcanvas offcanvas-end"
         tabindex="-1"
@@ -57,134 +58,107 @@
               <a class="nav-link" href="todos-proyectos.html">Todos los proyectos</a>
             </li>
           </ul>
-         
+        
         </div>
       </div>
-
-      <nav class="navbar fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Kta Prez</a>
-
-          <div class="d-flex align-items-center gap-4">
-            <a
-              href="mailto:catalina.perez.olivos@gmail.com"
-              class="d-flex align-items-center gap-2 link"
-            >
-              <p class="m-0">Conversemos</p>
-              <i class="fas fa-arrow-up arrowupright"></i>
-            </a>
-
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="offcanvas"
-              data-bs-target="#offcanvasNavbar"
-              aria-controls="offcanvasNavbar"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </div>
-        </div>
-      </nav>
-    </header>
-
-    <main id="proyecto-detalle">
-      <section class="principal py-5">
-        <div class="container">
-          <div class="botones-proyectos">
-            <a
-              href="proyecto-obrasavn.html"
-              id="anterior-proyecto"
-              class="d-flex justify-content-between align-items-center"
-            >
-              <i class="fas fa-arrow-left"></i>
-            </a>
-
-            <a
-              href="proyecto-tiendasdigitales.html"
-              id="siguiente-proyecto"
-              class="d-flex justify-content-between align-items-center"
-            >
-              <i class="fas fa-arrow-right"></i>
-            </a>
-          </div>
-
-          <div class="titulo-proyecto">
-            <h2>Pasaste sin Tag</h2>
-            <div class="herramientas">
-              <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Bootstrap</li>
-                <li>Adobe XD</li>
-              </ul>
+    
+        <nav class="navbar fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Kta Prez</a>
+  
+            <div class="d-flex align-items-center gap-4">
+              <a
+                href="mailto:catalina.perez.olivos@gmail.com"
+                class="d-flex align-items-center gap-2 link"
+              >
+                <p class="m-0">Conversemos</p>
+                <i class="fas fa-arrow-up arrowupright"></i>
+              </a>
+            
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+  
+  
+  
+  
+  
             </div>
           </div>
+        </nav>
+      </header>
 
-          <div class="img-proyecto">
-            <img
-              src="assets/images/img-pasaste-sin-tag/mockup-laptop-pasastesintag-1.png"
-              alt=""
-            />
+    <main>
+      <section id="todos-proyectos" class="py-5">
+        <div class="container">
+          <div class="circulo-rosado">
+            <img src="assets/images/otros/circulo-pequeño.png" alt="" />
+            <h2>Mis Trabajos</h2>
           </div>
-        </div>
-      </section>
 
-      <section class="texto-proyecto container">
-        <h4>Contexto</h4>
-        <p>
-          La empresa Ferrovial realiza obras en la Autopista Vespucio Norte y
-          solicitaron a través del cual poder ir informando sobre estado de la
-          obra y un formulario de contacto
-        </p>
 
-        <p>
-          En caso que los usuarios transiten por autopistas concesionadas y no
-          tengan contratado un dispositivo TAG ni tampoco hayan comprado el Pase
-          Diario, fue que se desarrolló este portal web para que los usuarios de
-          las autopistas que no tienen tag, puedan pagar los tránsitos por las
-          autopistas de Chile en un solo lugar.
-        </p>
-        <p>
-          Al pasar por los pórticos, se le toma la patente a los autos, y
-          después de un plazo de 11 días aprox. la deuda se ve reflejada en el
-          portal ingresando con la patente correspondiente.
-        </p>
+          <div class="row mt-5">
+            <a href="proyecto-ciprez.html" class="col-md-7">
+              <div class="card">
+                <img src="assets/images/img-ciprez/mockup-phone-ciprez.png" class="card-img-top" alt="..." />
+                <div class="card-body d-flex justify-content-between">
+                  <h4>Ciprez</h4>
+                  <i class="fas fa-arrow-up arrowupright"></i>
+                </div>
+              </div>
+            </a>
 
-        <h4>Mi rol en el proyecto</h4>
-        <p class="row">
-          <span class="col-md-6">
-            Mi parte en el proyecto trató sobre diseñar las propuestas e ir
-            corrigiendo o añadiendo según el cliente lo solicitara con Adobe XD. Posteriormente a la aprobación del diseño, maqueteé  en
-          </span>
-          <span class="col-md-6">
-           
-             HTML y CSS para que fuera más fácil a los desarrolladores cumplir con su parte
-            del proyecto sin preocuparse mucho del frontend.</span
-          >
-        </p>
+            <a href="proyecto-jotalillo.html" class="col-md-5">
+              <div class="card">
+                <img src="assets/images/img-jotalillo/mockup-laptop-jotalillo.png" class="card-img-top" alt="..." />
+                <div class="card-body d-flex justify-content-between">
+                  <h4>Jota Lillo</h4>
+                  <i class="fas fa-arrow-up arrowupright"></i>
+                </div>
+              </div>
+            </a>
 
-        <div class="row img-extra">
-          <div class="col-md-5 cont-img">
-            <img
-              src="assets/images/img-pasaste-sin-tag/mockup-laptop-pasastesintag-2.png"
-              alt=""
-            />
+            <a href="proyecto-militares.html" class="col-md-4">
+                <div class="card">
+                  <img src="assets/images/img-militares/mockup-phone-militares-1.png" class="card-img-top" alt="..." />
+                  <div class="card-body d-flex justify-content-between">
+                    <h4>Campaña Redes Sociales</h4>
+                    <i class="fas fa-arrow-up arrowupright"></i>
+                  </div>
+                </div>
+              </a>
+
+              <a href="proyecto-obrasavn.html" class="col-md-4">
+                <div class="card">
+                  <img src="assets/images/img-obras-avn/mockup-laptop-obras-avn.png" class="card-img-top" alt="..." />
+                  <div class="card-body d-flex justify-content-between">
+                    <h4>Obras AVN</h4>
+                    <i class="fas fa-arrow-up arrowupright"></i>
+                  </div>
+                </div>
+              </a>
+
+              <a href="proyecto-pasastesintag.html" class="col-md-4">
+                <div class="card">
+                  <img src="assets/images/img-pasaste-sin-tag/mockup-laptop-pasastesintag-1.png" class="card-img-top" alt="..." />
+                  <div class="card-body d-flex justify-content-between">
+                    <h4>Pasaste sin Tag</h4>
+                    <i class="fas fa-arrow-up arrowupright"></i>
+                  </div>
+                </div>
+              </a>
+
+              <a href="proyecto-tiendasdigitales.html" class="col-md-7">
+                <div class="card">
+                  <img src="assets/images/img-playstore/mockup-laptop-appstore-1.png" class="card-img-top" alt="..." />
+                  <div class="card-body d-flex justify-content-between">
+                    <h4>Gráficas App Store - Playstore</h4>
+                    <i class="fas fa-arrow-up arrowupright"></i>
+                  </div>
+                </div>
+              </a>
+            
           </div>
-          <div class="col-md-7 cont-img">
-            <img
-              src="assets/images/img-pasaste-sin-tag/mockup-laptop-pasastesintag-3.png"
-              alt=""
-            />
-          </div>
-        </div>
-
-        <div class="d-flex gap-2">
-          <p>Link a la Página Web:</p>
-          <a target="_blank" rel="noopener" href="https://pasastesintag.cl//"
-            >Pasaste sin Tag</a
-          >
         </div>
       </section>
     </main>
@@ -244,5 +218,3 @@
     ></script>
   </body>
 </html>
-
-
