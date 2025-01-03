@@ -52,13 +52,34 @@ header nav .navbar-brand {
 
 header .navbar {
   border-bottom: 1px solid var(--color-oscuro);
-  margin-inline: 20px;
+  margin-left: 20px;
   backdrop-filter: blur(20px);
+  height: 60px;
 }
+
+header .navbar .navbar-toggler{
+  position: absolute;
+  width: 70px;
+  height: 60px;
+  border-radius: 0;
+  right: 0;
+  background-color: var(--color-oscuro);
+}
+header .navbar .navbar-toggler:focus{
+  box-shadow: none;
+}
+
+
+header .navbar .navbar-toggler .navbar-toggler-icon{
+  filter: invert(1);
+  opacity: 1;
+}
+
 
 header .navbar .link {
   text-decoration: none;
   color: var(--color-oscuro);
+  transform: translateX(-75px);
 }
 header .navbar .arrowupright {
   color: var(--color-oscuro);
