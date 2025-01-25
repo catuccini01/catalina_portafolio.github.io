@@ -401,14 +401,9 @@ section#intro {
   height: 100%;
   border-radius: inherit;
   align-items: end;
-  opacity: 0;
-  transition: ease-in-out 0.3s;
+  opacity: 0.5;
 }
 
-#todos-proyectos .card .card-body:hover {
-  opacity: 0.5;
-  transition: ease-in-out 0.3s;
-}
 #todos-proyectos .card h4 {
   color: var(--color-blanco);
 }
