@@ -441,7 +441,7 @@ section#intro {
 
 #proyecto-detalle .container {
   max-width: 1000px;
-  margin-top: 50px;
+ /*  margin-top: 50px; */
 }
 
 .principal {
@@ -478,11 +478,12 @@ section#intro {
 }
 
 .img-proyecto {
-  height: 450px;
-  margin: 50px auto 0;
+  height: 550px;
+  margin: 20px auto 0;
 }
 .texto-proyecto {
   text-align: justify;
+  transform: translateY(30px);
 }
 .texto-proyecto h4 {
   font-weight: 700;
