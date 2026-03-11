@@ -53,7 +53,7 @@ header nav .navbar-brand {
 
 header .navbar {
   border-bottom: 1px solid var(--color-oscuro);
-  margin-left: 20px;
+  padding-left: 20px;
   backdrop-filter: blur(20px);
   height: 60px;
 }
@@ -134,7 +134,6 @@ section#intro {
 #intro .seccion-1 .imagen-1 {
   padding: 0;
   height: 700px;
-  display: flex !important;
   align-items: flex-end;
 }
 
@@ -153,6 +152,7 @@ section#intro {
   min-height: 700px;
   height: 100%;
   width: 100%;
+  margin: auto;
 }
 
 #intro .seccion-1 .botones {
@@ -624,10 +624,10 @@ footer .derechos a i {
   header .navbar {
     margin: 0;
   }
-
+/* 
   #intro .seccion-1 {
     margin-left: 7%;
-  }
+  } */
 
   #intro .seccion-1 h1 {
     font-size: 64px;
@@ -658,6 +658,10 @@ footer .derechos a i {
   #intro .texto-principal img {
     width: 69px;
     left: 15px;
+  }
+
+  #habilidades .p-responsive{
+    padding: 0;
   }
 
   #trabajo .container>img {
